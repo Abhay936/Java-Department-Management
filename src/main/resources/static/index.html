@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Department Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Department Management System</h2>
+
+<div class="form-box">
+    <!-- hidden field for update -->
+    <input type="hidden" id="deptId">
+
+    <input type="text" id="name" placeholder="Department Name">
+    <input type="text" id="location" placeholder="Location">
+
+    <button id="addBtn" onclick="addDepartment()">Add Department</button>
+    <button id="updateBtn" onclick="updateDepartment()" style="display:none;">
+        Update Department
+    </button>
+</div>
+
+<h3>Department List</h3>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody id="departmentTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
