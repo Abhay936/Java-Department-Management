@@ -41,3 +41,24 @@ This project demonstrates **complete CRUD operations** with backend–frontend i
 
 ## 📂 Project Structure
 
+Department-Management-CRUD
+├── src/main/java/com/example/Department
+│ ├── Controller
+│ │ └── DepartmentController.java
+│ ├── Service
+│ │ └── DepartmentServices.java
+│ ├── Repository
+│ │ └── DepartmentRepository.java
+│ ├── Model
+│ │ └── Department.java
+│ └── DepartmentManagementApplication.java
+│
+├── src/main/resources
+│ ├── static
+│ │ ├── index.html
+│ │ ├── style.css
+│ │ └── script.js
+│ └── application.properties
+│
+└── pom.xml
+
